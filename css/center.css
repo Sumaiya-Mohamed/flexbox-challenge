@@ -1,0 +1,14 @@
+.parent {
+    height: 50vh;
+   display: flex;
+   flex-direction: column; /* changes the main and cross axis */
+   align-items: center; /* aligns items on the horizontal cross axis */
+   justify-content: center; /* aligns items on the vertical main axis*/
+   
+}
+
+.child {
+    background-color: darkolivegreen;
+    color: white;
+    padding: 1rem;
+}
